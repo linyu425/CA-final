@@ -1,0 +1,40 @@
+sbt test
+[info] welcome to sbt 1.9.7 (Temurin Java 1.8.0_392)
+[info] loading settings for project ca2023-lab3-build from plugins.sbt ...
+[info] loading project definition from /home/linyu/chisel-tutorial/ca2023-lab3/project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to mycpu (in build file:/home/linyu/chisel-tutorial/ca2023-lab3/)
+[info] compiling 1 Scala source to /home/linyu/chisel-tutorial/ca2023-lab3/target/scala-2.13/test-classes ...
+[info] done compiling
+[info] InstructionFetchTest:
+[info] InstructionFetch of Single Cycle CPU
+[info] - should fetch instruction
+[info] QuicksortTest:
+[info] Single Cycle CPU
+[info] - should perform a quicksort on 10 numbers
+[info] ExecuteTest:
+[info] Execution of Single Cycle CPU
+[info] - should execute correctly
+[info] InstructionDecoderTest:
+[info] InstructionDecoder of Single Cycle CPU
+[info] - should produce correct control signal
+[info] main:
+[info] Single Cycle CPU
+[info] - should answer is s2 = 0x1234540a , s3 = 0x8f5c3d98.
+[info] RegisterFileTest:
+[info] Register File of Single Cycle CPU
+[info] - should read the written content
+[info] - should x0 always be zero
+[info] - should read the writing content
+[info] ByteAccessTest:
+[info] Single Cycle CPU
+[info] - should store and load a single byte
+[info] FibonacciTest:
+[info] Single Cycle CPU
+[info] - should recursively calculate Fibonacci(10)
+[info] Run completed in 19 seconds, 659 milliseconds.
+[info] Total number of tests run: 10
+[info] Suites: completed 8, aborted 0
+[info] Tests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 24 s, completed Dec 2, 2023 12:01:22 AM
